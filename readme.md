@@ -1,12 +1,13 @@
-## Bomberman
+# Bomberman
 
-Descrição: Jogo de classe de bomberman com single/multi player. Testando em Python 3.8.1
+## Descrição:
+Jogo de classe de bomberman com single/multi player.
+Testado em Python 3.8.1
 
-Instruções: Para executar o jogo, digite o seguinte comando
+## Instruções:
+Para executar o jogo, digite o seguinte comando: python main.py
 
-python main.py
-
-# Multijogador
+## Multiplayer
 Para executar isso, é um pouco mais complicado. Atualmente, está definido para ser executado no host local.
 Essa configuração pode ser modificada no arquivo config.py. Para executá-lo no seu servidor,
 altere LOCALHOST = True para LOCALHOST = False. O server, admin e o game estão atualmente
@@ -14,26 +15,26 @@ definido como localhost. Esses valores teriam que ser alterados também.
 
 Supondo que estamos no localhost. Você precisará executar duas instâncias separadas do jogo.
 
-# Execute o servidor
+## Execute o servidor
 python server.py
 
-# Inicie as duas instâncias dos jogos, entre no multiplayer
+## Inicie as duas instâncias dos jogos, entre no multiplayer
 python bomberman/main.py
 python bomberman2/main.py
 
-# Execute o admin para iniciar o jogo multiplayer
+## Execute o admin para iniciar o jogo multiplayer
 python bomberman/admin.py
 
 Pressione 8 para iniciar o jogo
 
 -----------------------------------------------
 
-# Teclas
+## Teclas
 Teclas de seta para mover
 Barra de espaço para colocar bomba
 G é um cheat/secreto. Adiciona 1 bomba e 1 poder
 
-# Tela principal
+## Tela principal
 - Single Player
   = Um jogador, atualmente definido para ter 2 estágios com 6 níveis por estágio.
 
@@ -52,7 +53,7 @@ G é um cheat/secreto. Adiciona 1 bomba e 1 poder
 
 -----------------------------------------------
 
-BUGS
+## BUGS
 
 - Explosão não mata quando você fica em uma bomba
 - A bomba não aparece quando você pressiona a barra de espaço
